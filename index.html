@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="index, follow">
     <meta name="description" content="Download GTA 5 Mobile - Experience the full Grand Theft Auto V experience on your smartphone. Get it now on Android and iOS.">
-    <meta name="keywords" content="GTA 5 Mobile, modded games, mobile games, modlify.fun, download games">
-    <meta property="og:title" content="GTA 5 Mobile - Modlify.fun">
+    <meta name="keywords" content="GTA 5 Mobile, modded games, mobile games, modxnet.com, download games">
+    <meta property="og:title" content="GTA 5 Mobile - Modxnet.com">
     <meta property="og:description" content="Download the latest modded version of GTA 5 Mobile. Explore the vast open world of Los Santos on your smartphone.">
     <meta property="og:image" content="https://i.ibb.co/nsqFbZYX/5ea17-15973837610273-800-2025-02-24-T200151-466.jpg">
-    <meta property="og:url" content="https://www.modlify.fun/gta5-mobile">
+    <meta property="og:url" content="https://www.modxnet.com/gta5-mobile">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GTA 5 Mobile - Modlify.fun">
+    <meta name="twitter:title" content="GTA 5 Mobile - Modxnet.com">
     <meta name="twitter:description" content="Download the latest modded version of GTA 5 Mobile. Explore the vast open world of Los Santos on your smartphone.">
     <meta name="twitter:image" content="https://i.ibb.co/nsqFbZYX/5ea17-15973837610273-800-2025-02-24-T200151-466.jpg">
-    <meta name="author" content="Modlify.fun">
+    <meta name="author" content="Modxnet.com">
     <link rel="icon" href="https://i.ibb.co/gbsY945Q/Black-and-Green-Illustrative-E-Sports-Gaming-Logo-2-removebg.png">
-    <title>GTA 5 Mobile - Modlify.fun</title>
+    <title>GTA 5 Mobile - Modxnet.com</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -67,24 +67,28 @@
             margin: 0 auto;
         }
 
+        /* Updated Back to Home Button (BeamNG style) */
         .back-icon {
-            font-size: 1rem;
+            font-size: 0.8rem;
             color: var(--text);
             cursor: pointer;
-            transition: color 0.3s ease;
+            transition: all 0.3s ease;
             display: flex;
             align-items: center;
             gap: 8px;
-            padding: 8px 12px;
-            border-radius: 50px;
+            padding: 10px 20px;
+            border-radius: 42px;
             background: rgba(255, 255, 255, 0.1);
             text-decoration: none;
             font-weight: 500;
+            border: 1.5px solid var(--primary);
+            color: var(--primary);
         }
 
         .back-icon:hover {
-            color: var(--primary);
-            background: rgba(255, 255, 255, 0.2);
+            color: var(--white);
+            background: var(--primary);
+            transform: translateX(-5px);
         }
 
         .menu-icon {
@@ -422,8 +426,12 @@
             }
         }
     </style>
+    <script>
+(function(){'use strict';const a=['modxnet.com','modxnet.github.io'];function b(){let c=document.querySelector('meta[http-equiv="X-Frame-Options"]');if(!c){c=document.createElement('meta');c.setAttribute('http-equiv','X-Frame-Options');document.head.appendChild(c)}c.setAttribute('content','DENY');try{if(window.top!==window.self){window.top.location=window.self.location}}catch(e){}}function d(){const e=document.referrer||'';const f=window.location.hostname;let g='';if(e){try{const h=new URL(e);g=h.hostname}catch(e){}}const i=a.some(j=>f===j||f.endsWith('.'+j));const k=g&&a.some(j=>g===j||g.endsWith('.'+j));return i||k}function l(){const m=document.body;if(m){m.style.display='none'}const n=document.createElement('div');n.id='access-denied-message';n.innerHTML='<h1 style="font-family: Arial, sans-serif; text-align: center; color: #d32f2f; margin-top: 50vh; transform: translateY(-50%);">Access Denied ⚠<br><br>This page is only available from modxnet.com</h1>';n.style.cssText='position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #ffffff; z-index: 999999; display: flex; align-items: center; justify-content: center;';document.body.innerHTML='';document.body.appendChild(n);document.body.style.display='block'}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',function(){b();if(!d()){l()}})}else{b();if(!d()){l()}}window.addEventListener('pageshow',function(e){if(!d()){l()}})})();
+    </script>
 </head>
 <body>
+
     <header class="header">
         <nav class="nav-container">
             <a href="https://www.modxnet.com" class="back-icon">
@@ -458,10 +466,10 @@
 
         <!-- Download Buttons -->
         <div class="download-section">
-            <button onclick="showContentLocker('android')" class="download-btn">
+            <button onclick="loadOGAdsLocker()" class="download-btn">
                 <i class="fab fa-android"></i> Download for Android
             </button>
-            <button onclick="showContentLocker('ios')" class="download-btn">
+            <button onclick="loadOGAdsLocker()" class="download-btn">
                 <i class="fab fa-apple"></i> Download for iOS
             </button>
         </div>
@@ -544,10 +552,10 @@
             <div class="footer-section">
                 <h3>About Us</h3>
                 <ul class="footer-links">
-                    <li><a href="#">Our Mission</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="https://www.instagram.com/m9dde?igsh=cW9uN3RvNWdnNDdq">Our Mission</a></li>
+                    <li><a href="https://www.instagram.com/m9dde?igsh=cW9uN3RvNWdnNDdq">Team</a></li>
+                    <li><a href="https://www.instagram.com/m9dde?igsh=cW9uN3RvNWdnNDdq">Careers</a></li>
+                    <li><a href="https://www.instagram.com/m9dde?igsh=cW9uN3RvNWdnNDdq">Contact Us</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -570,29 +578,18 @@
             <div class="footer-section">
                 <h3>Follow Us</h3>
                 <div class="social-links">
-                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@danielmartinilo?_t=ZT-8xhD8lBA1Gg&_r=1" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/m9dde?igsh=cW9uN3RvNWdnNDdq" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/@tilijo-m7u?si=1A_4zev8DmrbzgEe" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            &copy; 2025 <a href="#">Modlify.fun</a>. All rights reserved. | Designed by <a href="https://www.youtube.com/@Modlify-Games" target="_blank">Modlify Games</a>
+            &copy; 2025 <a href="https://www.modxnet.com">modxnet.com</a>. All rights reserved. | Designed by <a href="https://www.youtube.com/@Modlify-Games" target="_blank">Modlify Games</a>
         </div>
     </footer>
 
-    <!-- AdBlueMedia Script -->
-    <script type="text/javascript">
-        var beYaO_hzP_szYQUc = {"it": 4455572, "key": "e7e4f"};
-    </script>
-    <script src="https://d29gqhzevia104.cloudfront.net/7c3ff43.js"></script>
-    
     <script>
-        // Prevent cookie consent from showing
-        window.abmDisableCookieConsent = true;
-        document.cookie = "abm-cookie-consent=accepted; max-age=31536000; path=/";
-
         // Mobile menu toggle
         document.getElementById('menuIcon').addEventListener('click', function() {
             document.getElementById('navLinks').classList.toggle('active');
@@ -638,13 +635,39 @@
             document.getElementById('ios-steps').style.display = tabIndex === 1 ? 'block' : 'none';
         }
 
-        // Download handler
-        function showContentLocker(platform) {
-            if (platform === 'android') {
-                _Pg();
-            } else if (platform === 'ios') {
-                _Pg();
-            }
+        // OGAds Locker function - loads only when download button is clicked
+        function loadOGAdsLocker() {
+            // Create and add the noscript meta tag
+            const noscriptMeta = document.createElement('meta');
+            noscriptMeta.setAttribute('http-equiv', 'refresh');
+            noscriptMeta.setAttribute('content', '0;url=https://applocked.store/noscript');
+            
+            // Create the script elements
+            const script1 = document.createElement('script');
+            script1.type = 'text/javascript';
+            script1.textContent = 'var ogblock=true;';
+            
+            const script2 = document.createElement('script');
+            script2.type = 'text/javascript';
+            script2.id = 'ogjs';
+            script2.src = 'https://applocked.store/cl/js/9vq7gw';
+            
+            const script3 = document.createElement('script');
+            script3.type = 'text/javascript';
+            script3.textContent = 'if(ogblock) window.location.href = "https://applocked.store/adblock";';
+            
+            // Add all elements to the head
+            document.head.appendChild(noscriptMeta);
+            document.head.appendChild(script1);
+            document.head.appendChild(script2);
+            document.head.appendChild(script3);
+            
+            // Trigger the OGAds locker
+            setTimeout(function() {
+                if(typeof ogblock !== 'undefined' && ogblock) {
+                    window.location.href = "https://applocked.store/adblock";
+                }
+            }, 100);
         }
     </script>
 </body>
